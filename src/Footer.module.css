@@ -1,0 +1,7 @@
+.footer { width:900px; margin:0 auto; padding:15px 0 40px;  border-top:1px solid #ccc; position: relative; }
+.footer p {font-size:11px;}
+.footer .copy span { font-weight:bold; color:#8a7eb3; }
+
+.footer .fmenu { position:absolute; top:15px; right:0; }
+.footer .fmenu li { float:left; font-size:11px; }
+.footer .fmenu span { margin:0 5px; }

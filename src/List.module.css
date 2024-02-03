@@ -1,0 +1,20 @@
+.table { width:100%; text-align: center; border-spacing: 0;  font-size:13px;  }
+.table th { padding:5px 0; background: none; border-top:1px solid #ccc; border-bottom: 1px solid #ccc; }
+.table td {padding:8px 0; border-bottom:1px solid #eee; }
+.table td:nth-child(3) { text-align: left; } 
+
+.pager { margin: 25px 0 0; }
+.pager ul { display: flex; justify-content: center; }
+.pager li { display: inline-block; margin:0 5px; }
+.pager .on a { font-weight: bold; }
+
+.pager li .prev, .pager li .next {margin: 0 10px;}
+
+.bottom_left { position:absolute; bottom:30px; left:0; }
+.bottom_left p { border:1px solid #999; float:left; margin-right:6px; }
+.bottom_left p a { padding:0 8px; }
+
+.bottom_right { position: absolute; bottom:28px; right:0; }
+.bottom_right select { height:22px; }
+.bottom_right input { width:130px; height:18px; padding:0 20px 0 5px; }
+.bottom_right .btn{ display: inline-block; background:url('../public/img/bottomsrc.jpg') no-repeat; border:none; position:absolute; top:3px; right:2px; width:18px; height:18px; padding:0; }

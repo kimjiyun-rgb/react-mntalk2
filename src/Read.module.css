@@ -1,0 +1,9 @@
+.mainTop { margin-bottom: 20px; }
+.mainTop h2 { margin-bottom:20px; font-weight:900; }
+.mainTop h3:before { content:""; display: inline-block; width:4px; height:20px; background:#8a7eb3; position:absolute; top:0; left:-10px; }
+.mainTop h3 { position: relative; margin-left:10px; color:#444; font-size:13px; font-weight: normal; float:left; }
+.mainTop h3 strong { color:#FF8C00; }
+
+.mainTop .btn { border:1px solid #555; float:right; margin-left:6px; }
+.mainTop .btn a { display: block; padding:0 8px; }
+.mainTop .mainRec a { color:#b52c56; }

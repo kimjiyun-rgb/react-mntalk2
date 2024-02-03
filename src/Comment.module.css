@@ -1,0 +1,8 @@
+.comment { margin-bottom: 30px; }
+.comment .showCmt { background:#e6e6e6; padding:5px 0; text-align: center; }
+.showCmt span { font-weight: bold; }
+.cmtList li { padding:15px; border-bottom:1px solid #ccc; }
+.cmtList li:last-child { border:0; }
+.cmtList li> div .cname:before { content:"★"; display: inline; color:#8a7eb3; }
+.cmtList li> div .ctime { font-size:11px; color:#888; }
+.cmtList li> .ctext { margin-top:5px; }
