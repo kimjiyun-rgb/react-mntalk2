@@ -10,13 +10,14 @@ import List from './List';
 import ReadContainer from './ReadContainer';
 
 function App() {
-  return(
-   <div>
-    <Header />
-    <Nav />
-    <ReadContainer />
-    <Footer />
-   </div>
+  return (
+    <div>
+      <Header />
+      <Nav />
+      {/* <Contact /> */}
+      <ReadContainer />
+      <Footer />
+    </div>
   );
 }
 

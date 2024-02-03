@@ -5,13 +5,13 @@ import Read from "./Read";
 import styles from './ReadContainer.module.css';
 
 const ReadContainer = () => {
-    return (
-        <div className={styles.container}>
-            <Read />
-            <Comment />
-            <List />
-        </div>
-    );
+  return (
+    <div className={styles.container}>
+      <Read />
+      <Comment />
+      <List />
+    </div>
+  );
 };
 
 export default ReadContainer;
